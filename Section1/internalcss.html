@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Internal CSS</title>
+
+    <style>
+        h1{
+            font-size: 40px;
+            color: rgb(23, 197, 0);
+            text-decoration: dashed underline red;
+        }
+
+        p{
+            background-color: chartreuse;
+            color: yellow;
+        }
+
+        .mytag{
+            color: rgb(56, 36, 0);
+            font-size: 30px;
+            font-weight: 500;
+            font-style: italic;
+            word-spacing: 5px;
+            letter-spacing: 4px;
+        }
+
+        .mytag2{
+            color: blueviolet;
+        }
+
+        #myid{
+            text-decoration: underline;
+            color: crimson;
+            font-size: 50px;
+            text-align: center;
+            border: 2px solid crimson;
+        }
+
+        .myclass3{
+            color: blue;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Internal CSS is used to design entire page at once</h1>
+    <h1>To use Internal CSS style tag is used inside head tag</h1>
+    <h2 class="mytag">Name Selectors are used select elements by tag name</h2>
+    
+    <p class="mytag2 mytag">Class Selectors are used to select elements by their class name.</p>
+
+    <p id="myid" class="myclass3" style="color: indigo;">Id Selectors are used to uniqely select an element</p>
+
+    <h1>New Heading</h1>
+
+    <h3>Priority : inline > id-selector > class-selector > name-selector </h3>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.msg{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: fit-content;
+    max-width: 70%;
+    border-radius: 10px 20px 20px 0;
+}
+
+.msg p{
+    margin: 0;
+}
+
+.msg-area{
+    height: 70vh;
+    overflow: auto;
+}
